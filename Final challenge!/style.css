@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul{
+    padding: 0.5rem;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+}
+h1{
+    margin-top: 0;
+}
+header{
+    background-color: #2E323F;
+}
+.s1{
+    background-color: #3B4050;
+}
+.s2{
+    background-color: hsl(0, 0%, 90%);
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.s4{
+    background-color: #3B4050;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 10%;
+}
