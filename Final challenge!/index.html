@@ -11,10 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div class="nav row">
+      <div class="nav container">
         <ul>
           <img class="logo" src="/images/logo-3.svg" alt="CRL logo" />
         </ul>
@@ -24,7 +30,7 @@
           <li>about</li>
           <li>contact</li>
         </ul>
-        <ul>
+        <ul class="flex">
           <li>sign in</li>
           <li><button>sign up</button></li>
         </ul>
@@ -32,74 +38,133 @@
     </header>
     <main>
       <section class="s1">
-        <div class="hero__left">
-          <h1>Responsive layouts don't have to be a struggle</h1>
-        </div>
-        <div class="hero__right">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-            delectus doloribus, beatae soluta in commodi fugiat magnam ut
-            debitis illum maxime totam deleniti ratione amet est provident vero
-            praesentium quam!
-          </p>
-          <button class="btn">i want to learn</button>
+        <div class="container">
+          <div class="hero__left">
+            <h1>Responsive layouts don't have to be a struggle</h1>
+          </div>
+          <div class="hero__right">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+              delectus doloribus, beatae soluta in commodi fugiat magnam ut
+              debitis illum maxime totam deleniti ratione amet est provident
+              vero praesentium quam!
+            </p>
+            <button class="btn">i want to learn</button>
+          </div>
         </div>
       </section>
       <section class="s2">
-        <div class="box1">Mobile-first</div>
-        <div class="box1">Efficient</div>
-        <div class="box1">Done right</div>
+        <div class="container">
+          <div class="boxes">
+            <div class="box1">
+              <h3>Mobile-first</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis veniam consequuntur vel laborum quidem deserunt ducimus
+                repellat sunt obcaecati. Voluptatum.
+              </p>
+            </div>
+            <div class="box1">
+              <h3>Efficient</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+                repellendus a explicabo aperiam ad officia ipsam aspernatur
+                earum, repudiandae veniam eos commodi. Ipsum nihil libero earum
+                velit commodi, amet non.
+              </p>
+            </div>
+            <div class="box1">
+              <h3>Done right</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+                esse omnis, unde tempora atque sed corrupti reprehenderit iure
+                nesciunt laborum harum dolores, perspiciatis saepe nostrum ut
+                molestiae ipsa laudantium explicabo?
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="s3">
-        <div class="info">
-          it doesnt have to be so hard Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Unde aliquam porro atque ratione impedit dolore
-          quasi possimus ut magnam, consequatur earum minus officia accusantium
-          iste a ipsa cum assumenda veritatis consectetur sequi ab repellat fuga
-          voluptates nisi. Temporibus deserunt adipisci iure sequi quasi
-          dolorem, ex aliquid commodi beatae quisquam nostrum!
-          <div><img src="/images/the-image.jpg" alt="newspapers" /></div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
-          dolor aliquid beatae aspernatur pariatur maxime illo nobis delectus
-          saepe esse eaque, cupiditate itaque at ratione laudantium mollitia
-          quis corrupti suscipit.
-        </div>
-        <div class="sideboxes">
-          <div class="box1"></div>
-          <div class="box2"></div>
-          <div class="box3"></div>
-        </div>
-      </section>
-      <section class="s4">
-        <h2>just scratching the surdace</h2>
-        <div class="about">
+        <div class="container">
           <div class="info">
-            <h5>About our company</h5>
+            <h2>It doesnt have to be so hard</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              tempora accusamus cupiditate? Enim tempora dolores rem, ipsa
-              facilis impedit nihil!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              aliquam porro atque ratione impedit dolore quasi possimus ut
+              magnam, consequatur earum minus officia accusantium iste a ipsa
+              cum assumenda veritatis consectetur sequi ab repellat fuga
+              voluptates nisi. Temporibus deserunt adipisci iure sequi quasi
+              dolorem, ex aliquid commodi beatae quisquam nostrum!
+            </p>
+            <div><img src="/images/the-image.jpg" alt="newspapers" /></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deleniti, dolor aliquid beatae aspernatur pariatur maxime illo
+              nobis delectus saepe esse eaque, cupiditate itaque at ratione
+              laudantium mollitia quis corrupti suscipit.
             </p>
           </div>
-          <div class="box2">
-            <h5>getting around</h5>
-            <p>home</p>
-            <p>about</p>
-            <p>contact</p>
+          <div class="boxes">
+            <div class="box2">
+              <h2>Break it down</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                quae consectetur ullam maxime, sit non?
+              </p>
+            </div>
+            <div class="box2">
+              <h2>Work your way up</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                praesentium quia facere ratione dolor laborum?
+              </p>
+            </div>
+            <div class="box2">
+              <h2>Work hard</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                corrupti similique modi quis vitae sed?
+              </p>
+            </div>
           </div>
-          <div class="box2">
-            <h5>other things</h5>
-            <p>Lorem ipsum</p>
-            <p>dolor</p>
-            <p>sit amet</p>
-            <p>Lorem.</p>
-          </div>
-          <div class="box2">
-            <h5>and more</h5>
-            <p>Lorem ipsum</p>
-            <p>dolor</p>
-            <p>sit amet</p>
-            <p>Lorem.</p>
+        </div>
+      </section>
+
+      <section class="s4">
+        <div class="container">
+          <h1>Just scratching the surdace</h1>
+          <div class="about">
+            <div class="info">
+              <div class="box2">
+                <h3>About our company</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quasi tempora accusamus cupiditate? Enim tempora dolores rem,
+                  ipsa facilis impedit nihil!
+                </p>
+              </div>
+            </div>
+            <div class="box2">
+              <h3>Getting around</h3>
+              <p>home</p>
+              <p>about</p>
+              <p>contact</p>
+            </div>
+            <div class="box2">
+              <h3>Other things</h3>
+              <p>Lorem ipsum</p>
+              <p>dolor</p>
+              <p>sit amet</p>
+              <p>Lorem.</p>
+            </div>
+            <div class="box2">
+              <h3>And more</h3>
+              <p>Lorem ipsum</p>
+              <p>dolor</p>
+              <p>sit amet</p>
+              <p>Lorem.</p>
+            </div>
           </div>
         </div>
       </section>
