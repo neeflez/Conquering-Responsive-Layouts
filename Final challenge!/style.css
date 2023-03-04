@@ -39,7 +39,7 @@ img {
   width: 3rem;
 }
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding: 1rem 0;
   max-width: 1200px;
@@ -52,6 +52,7 @@ button {
   border: 0;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1rem;
 }
 button:hover {
   opacity: 0.5;
@@ -63,7 +64,7 @@ h1 {
   font-weight: 700;
   margin: 0;
 }
-h2{
+h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
@@ -85,78 +86,109 @@ p {
   color: #6f737f;
   font-family: "Montserrat", sans-serif;
 }
-.box2{
-    background-color: #3B4050;
-    text-align: center;
-    padding: 1rem;
+.box2 {
+  background-color: #3b4050;
+  text-align: center;
+  padding: 1rem;
 }
-.box2 h2{
-    color: white;
+.box2 h2 {
+  color: white;
 }
-.boxes{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
-.s4 h1{
-    text-align: center;
-    margin-bottom: 1rem;
+.s4 h1 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
-.s4 .box2{
-    text-align: start;
+.s4 .box2 {
+  text-align: start;
 }
-.box1{
-    text-align: center;
+.box1 {
+  text-align: center;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.space-between{
+.space-between {
   justify-content: space-between;
-  gap: 1rem
+  gap: 1rem;
 }
-.col{
+.col {
   flex-direction: column;
 }
-@media (min-width: 700px){
-  .boxes{
+span {
+  color: #a59678;
+}
+@media (min-width: 700px) {
+  .boxes {
     flex-direction: row;
   }
-  .nav{
+  .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
-  .space-between{
+  .space-between {
     justify-content: start;
     align-self: center;
-
   }
-  .middle{
-    
+  .middle {
     display: flex;
     align-self: center;
     gap: 1rem;
     margin: 0 auto;
   }
-  li{
+  li {
     align-self: center;
   }
-  .about{
+  .about {
     display: flex;
+  }
+
+  .about {
+    justify-content: space-between;
+  }
+  .bottom-info {
+    width: 40%;
   }
 }
 
-@media(min-width:1000px){
-    .s3 .boxes{
+@media (min-width: 1000px) {
+  :root {
+    font-size: 24px;
+  }
+
+  .s3 .boxes {
     flex-direction: column;
     width: 30%;
   }
-  .col{
+  .col {
     flex-direction: row;
-   justify-content: space-between;
+    justify-content: space-between;
   }
-  .s3 .info{
+  .s3 .info {
     width: 60%;
+  }
+  .hero__left {
+    width: 50%;
+  }
+  .hero__right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: end;
+  }
+  .hero__right button {
+    flex-grow: 0;
+  }
+  .hero {
+    padding: 3rem 0;
+    gap: 2rem;
+  }
+  h1 {
+    font-size: 3.5rem;
   }
 }
