@@ -113,4 +113,50 @@ p {
 }
 .space-between{
   justify-content: space-between;
+  gap: 1rem
+}
+.col{
+  flex-direction: column;
+}
+@media (min-width: 700px){
+  .boxes{
+    flex-direction: row;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  .space-between{
+    justify-content: start;
+    align-self: center;
+
+  }
+  .middle{
+    
+    display: flex;
+    align-self: center;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  li{
+    align-self: center;
+  }
+  .about{
+    display: flex;
+  }
+}
+
+@media(min-width:1000px){
+    .s3 .boxes{
+    flex-direction: column;
+    width: 30%;
+  }
+  .col{
+    flex-direction: row;
+   justify-content: space-between;
+  }
+  .s3 .info{
+    width: 60%;
+  }
 }
