@@ -1,2 +1,3 @@
 # Conquering-Responsive-Layouts
- Kevin Powell Course
+ What i learned?
+- Building sites
