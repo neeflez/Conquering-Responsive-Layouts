@@ -16,3 +16,6 @@ Open this link: https://neeflez.github.io/Conquering-Responsive-Layouts/Final-ch
 **#License**
 
 This project is available under this link https://courses.kevinpowell.co/conquering-responsive-layouts
+
+**#Soon**
+I'm thinking about adding the hamburger icon for a mobile view.
